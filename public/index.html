@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LucidMediax Growth Intelligence | Client Acquisition Engine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-layout">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-badge">LM</div>
+        <div class="brand-text">
+          <h2>LucidMediax</h2>
+          <span class="brand-sub">GROWTH INTELLIGENCE</span>
+        </div>
+      </div>
+
+      <div class="mode-indicator">
+        <span class="live-dot"></span>
+        <span>LIVE DATA ENGINE</span>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-link active" data-tab="overview">
+          <span class="nav-icon">📊</span> Overview
+        </button>
+        <button class="nav-link" data-tab="workflow">
+          <span class="nav-icon">🎯</span> Get First Clients
+        </button>
+        <button class="nav-link" data-tab="discover">
+          <span class="nav-icon">⚡</span> Discover Leads
+        </button>
+        <button class="nav-link" data-tab="crm">
+          <span class="nav-icon">🗂️</span> Prospect CRM
+        </button>
+        <button class="nav-link" data-tab="outreach">
+          <span class="nav-icon">✉️</span> Outreach Studio
+        </button>
+        <button class="nav-link" data-tab="tracker">
+          <span class="nav-icon">📡</span> Outreach Tracker
+        </button>
+        <button class="nav-link" data-tab="analytics">
+          <span class="nav-icon">📈</span> Analytics
+        </button>
+        <button class="nav-link" data-tab="settings">
+          <span class="nav-icon">⚙️</span> Settings & APIs
+        </button>
+      </nav>
+
+      <div class="sidebar-market-selector">
+        <span class="market-label">ACTIVE PROSPECTING REGION</span>
+        <div class="market-pill-group">
+          <button class="market-btn active" id="btn-market-all" onclick="setMarketFilter('all')">All</button>
+          <button class="market-btn" id="btn-market-dubai" onclick="setMarketFilter('UAE')">🇦🇪 Dubai</button>
+          <button class="market-btn" id="btn-market-india" onclick="setMarketFilter('India')">🇮🇳 India</button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Worktable -->
+    <main class="main-worktable">
+      <!-- Topbar Header -->
+      <header class="topbar">
+        <div>
+          <h1 id="view-title">Overview Dashboard</h1>
+          <p id="view-subtitle" class="text-secondary">Client acquisition pipeline for Dubai & India</p>
+        </div>
+
+        <div class="topbar-actions flex items-center gap-3">
+          <div class="auth-status-chip" id="topbar-auth-chip">
+            <span>🔒 Protected</span>
+            <button class="btn btn-sm btn-ghost p-1 text-xs" onclick="handleLogout()" title="Log out and lock console">Log Out</button>
+          </div>
+          <button class="btn btn-secondary" onclick="importVerifiedPreExistingData()">
+            ⚡ Ingest Verified Datasets
+          </button>
+          <button class="btn btn-primary" onclick="switchTab('discover')">
+            + Discover New Prospects
+          </button>
+        </div>
+      </header>
+
+      <div class="content-scroll">
+
+        <!-- 1. OVERVIEW VIEW -->
+        <section id="panel-overview" class="view-panel active">
+          <!-- Metric Grid -->
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="metric-title">Discovered Businesses</span>
+              <div class="metric-val" id="kpi-total">0</div>
+              <span class="metric-tag">Total Pipeline</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-title">Qualified Prospects</span>
+              <div class="metric-val text-primary" id="kpi-qualified">0</div>
+              <span class="metric-tag">Opportunity Score ≥ 70</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-title">Dubai Prospects</span>
+              <div class="metric-val text-accent" id="kpi-dubai">0</div>
+              <span class="metric-tag">Business Bay, Marina, JLT</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-title">India Prospects</span>
+              <div class="metric-val text-success" id="kpi-india">0</div>
+              <span class="metric-tag">NCR, Mumbai, Blr, Patna</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-title">Verified Contacts</span>
+              <div class="metric-val" id="kpi-contacts">0</div>
+              <span class="metric-tag">Email or Phone Ready</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-title">Meetings & Wins</span>
+              <div class="metric-val text-warning" id="kpi-wins">0</div>
+              <span class="metric-tag">Active Sales Conversations</span>
+            </div>
+          </div>
+
+          <!-- Split Screen: Top Qualified Opportunities & Activity Feed -->
+          <div class="split-grid">
+            <div class="card flex-2">
+              <div class="card-header">
+                <div>
+                  <h3>High-Priority Commercial Opportunities</h3>
+                  <p class="text-secondary">Businesses with verified marketing weaknesses and high intent</p>
+                </div>
+                <button class="btn btn-sm btn-ghost" onclick="loadDashboard()">Refresh</button>
+              </div>
+
+              <div class="table-wrap">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Score</th>
+                      <th>Business</th>
+                      <th>Location</th>
+                      <th>Contact</th>
+                      <th>Identified Problems</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="top-prospects-tbody">
+                    <tr><td colspan="6" class="text-center py-4 text-secondary">Loading top opportunities...</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="card flex-1">
+              <div class="card-header">
+                <div>
+                  <h3>Live Audit Log</h3>
+                  <p class="text-secondary">Scraper & enricher events</p>
+                </div>
+              </div>
+              <div class="feed-container" id="overview-log-feed">
+                <div class="feed-item info">System active and monitoring target micro-markets.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. GET FIRST CLIENTS WORKFLOW -->
+        <section id="panel-workflow" class="view-panel">
+          <div class="card workflow-hero">
+            <h2>🎯 LucidMediax 10-Step Client Acquisition Playbook</h2>
+            <p class="text-secondary">A step-by-step framework to secure your first 3 retainer clients in Dubai and India.</p>
+          </div>
+
+          <div class="workflow-steps-grid">
+            <div class="step-card">
+              <div class="step-num">01</div>
+              <h4>Discover Niche Leads</h4>
+              <p>Target localized clusters with high average transaction value: Dubai Real Estate, Dental Clinics, Aesthetic Centers.</p>
+              <button class="btn btn-sm btn-primary mt-2" onclick="switchTab('discover')">Run Search</button>
+            </div>
+            <div class="step-card">
+              <div class="step-num">02</div>
+              <h4>Identify Weaknesses</h4>
+              <p>Let the engine audit their website, lack of SSL, unoptimized meta tags, and missing Instagram storytelling.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-num">03</div>
+              <h4>Verify Direct Contacts</h4>
+              <p>Check domain MX mail servers and pull verified business emails and phones before outreach.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-num">04</div>
+              <h4>Generate Personal Pitch</h4>
+              <p>Use Outreach Studio to create observation-led cold emails, WhatsApp notes, and Instagram DMs.</p>
+              <button class="btn btn-sm btn-outline mt-2" onclick="switchTab('outreach')">Outreach Studio</button>
+            </div>
+            <div class="step-card">
+              <div class="step-num">05</div>
+              <h4>Approach & Schedule Call</h4>
+              <p>Send reviewed messages via WhatsApp or 1-click email client. Never spam; offer a free 1-page growth roadmap.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-num">06</div>
+              <h4>Close & Onboard Retainer</h4>
+              <p>Position LucidMediax as their growth partner for Meta Ads, SEO, and Social Content.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 3. DISCOVER LEADS VIEW -->
+        <section id="panel-discover" class="view-panel">
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <h3>Business Prospect Discovery Engine</h3>
+                <p class="text-secondary">Execute zero-cost local Google Maps scraping with automated geo-targeting</p>
+              </div>
+            </div>
+
+            <form id="discovery-form" onsubmit="handleStartDiscovery(event)">
+              <div class="form-row">
+                <div class="form-field">
+                  <label>Target Market *</label>
+                  <select id="disc-country" onchange="updateLocationPresets(this.value)" required>
+                    <option value="UAE">🇦🇪 Dubai, UAE</option>
+                    <option value="India">🇮🇳 India</option>
+                  </select>
+                </div>
+
+                <div class="form-field">
+                  <label>City *</label>
+                  <input type="text" id="disc-city" value="Dubai" required>
+                </div>
+
+                <div class="form-field">
+                  <label>Commercial Area / Micro-Market</label>
+                  <select id="disc-area">
+                    <option value="Business Bay">Business Bay</option>
+                    <option value="Dubai Marina">Dubai Marina</option>
+                    <option value="Downtown Dubai">Downtown Dubai</option>
+                    <option value="JLT">Jumeirah Lake Towers (JLT)</option>
+                    <option value="JVC">Jumeirah Village Circle (JVC)</option>
+                    <option value="Deira">Deira</option>
+                    <option value="Bur Dubai">Bur Dubai</option>
+                    <option value="DIFC">DIFC</option>
+                    <option value="Al Barsha">Al Barsha</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-field">
+                  <label>Target Industry *</label>
+                  <select id="disc-industry" onchange="updateKeywordFromIndustry(this.value)" required>
+                    <option value="Real Estate Agencies">Real Estate Agencies & Property Brokers</option>
+                    <option value="Dental Clinics">Dental Clinics & Dentists</option>
+                    <option value="Aesthetic Clinics">Aesthetic Clinics & Beauty Centers</option>
+                    <option value="Restaurants">Restaurants, Cafes & Hospitality</option>
+                    <option value="Fitness Centers">Gyms & Fitness Centers</option>
+                    <option value="Recruitment Agencies">Recruitment & Staffing Agencies</option>
+                    <option value="Coaching Institutes">Coaching Institutes & Education</option>
+                    <option value="E-commerce Brands">E-commerce & Retail Brands</option>
+                  </select>
+                </div>
+
+                <div class="form-field">
+                  <label>Search Query / Keyword</label>
+                  <input type="text" id="disc-keyword" value="Real Estate Agencies" required>
+                </div>
+
+                <div class="form-field">
+                  <label>Search Radius</label>
+                  <select id="disc-radius">
+                    <option value="2000">2 km (Dense Commercial Cluster)</option>
+                    <option value="5000" selected>5 km (Standard Urban District)</option>
+                    <option value="10000">10 km (Metro Wide)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-footer">
+                <span class="compliance-badge">🛡️ Zero Cost • Local Go Scraper Engine • Automatic SHA-256 Deduplication</span>
+                <button type="submit" class="btn btn-primary" id="btn-run-disc">
+                  🚀 Launch Prospect Discovery
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Active Scrape Banner -->
+          <div id="active-scrape-progress" class="card scrape-monitor" style="display: none;">
+            <div class="scrape-monitor-content">
+              <div class="spinner"></div>
+              <div>
+                <h4 id="monitor-heading">Scraping in progress...</h4>
+                <p id="monitor-subheading" class="text-secondary">Extracting listings, phone numbers, websites and ratings</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 4. CRM PROSPECT DATABASE -->
+        <section id="panel-crm" class="view-panel">
+          <div class="card">
+            <!-- Filter Bar -->
+            <div class="filter-strip">
+              <div class="filter-input-wrap">
+                <input type="text" id="crm-search" placeholder="Search business, city, address..." oninput="debounceFetchProspects()">
+              </div>
+
+              <select id="crm-filter-status" onchange="fetchProspects()">
+                <option value="">All CRM Stages</option>
+                <option value="New Lead">New Lead</option>
+                <option value="Researched">Researched</option>
+                <option value="Qualified">Qualified</option>
+                <option value="Ready to Approach">Ready to Approach</option>
+                <option value="Contacted">Contacted</option>
+                <option value="Meeting Scheduled">Meeting Scheduled</option>
+                <option value="Proposal Sent">Proposal Sent</option>
+                <option value="Won">Won</option>
+              </select>
+
+              <select id="crm-filter-tier" onchange="fetchProspects()">
+                <option value="">All Priority Tiers</option>
+                <option value="Excellent">Excellent (85+ Score)</option>
+                <option value="High">High (70–84 Score)</option>
+                <option value="Potential">Potential (50–69 Score)</option>
+              </select>
+
+              <div class="filter-checkboxes">
+                <label><input type="checkbox" id="crm-has-email" onchange="fetchProspects()"> Has Email</label>
+                <label><input type="checkbox" id="crm-has-phone" onchange="fetchProspects()"> Has Phone</label>
+                <label><input type="checkbox" id="crm-has-web" onchange="fetchProspects()"> Has Website</label>
+              </div>
+            </div>
+
+            <!-- Table -->
+            <div class="table-wrap">
+              <table class="table" id="prospects-table">
+                <thead>
+                  <tr>
+                    <th>Score</th>
+                    <th>Business</th>
+                    <th>Market</th>
+                    <th>Direct Contact</th>
+                    <th>Rating</th>
+                    <th>Services to Pitch</th>
+                    <th>Stage</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="prospects-tbody">
+                  <tr><td colspan="8" class="text-center py-4 text-secondary">Loading prospects...</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="pagination-bar">
+              <span id="crm-count-label">Showing 0 prospects</span>
+              <div class="pagination-actions">
+                <button class="btn btn-sm btn-outline" id="btn-prev-page" onclick="prevProspectsPage()">Previous</button>
+                <button class="btn btn-sm btn-outline" id="btn-next-page" onclick="nextProspectsPage()">Next</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 5. OUTREACH STUDIO VIEW -->
+        <section id="panel-outreach" class="view-panel">
+          <div class="outreach-layout">
+            <div class="card outreach-sidebar">
+              <div class="card-header">
+                <h3>Select Prospect</h3>
+                <button class="btn btn-sm btn-outline" onclick="openBatchAutomationModal()" title="Auto-send to prospects with emails">⚡ Batch</button>
+              </div>
+              <div class="prospect-selector-list" id="outreach-prospect-list">
+                <div class="text-secondary p-3">Loading qualified prospects...</div>
+              </div>
+            </div>
+
+            <div class="card outreach-editor">
+              <div class="card-header">
+                <div>
+                  <h3 id="outreach-lead-name">Select a prospect to review personalised outreach</h3>
+                  <span id="outreach-lead-meta" class="text-secondary text-sm"></span>
+                </div>
+                <div class="outreach-channel-tabs">
+                  <button class="channel-tab active" data-channel="email" onclick="switchChannel('email')">✉️ Cold Email</button>
+                  <button class="channel-tab" data-channel="whatsapp" onclick="switchChannel('whatsapp')">💬 WhatsApp</button>
+                  <button class="channel-tab" data-channel="instagram" onclick="switchChannel('instagram')">📸 Instagram DM</button>
+                  <button class="channel-tab" data-channel="linkedin" onclick="switchChannel('linkedin')">💼 LinkedIn</button>
+                  <button class="channel-tab" data-channel="followup" onclick="switchChannel('followup')">⏱️ Follow-up (3d)</button>
+                </div>
+              </div>
+
+              <div class="outreach-content-body">
+                <!-- Verified Contact Dossier Card -->
+                <div class="contact-dossier-card mb-3" id="outreach-dossier-card">
+                  <div class="dossier-grid">
+                    <div class="dossier-item">
+                      <span class="dossier-label">🏢 COMPANY NAME</span>
+                      <span class="dossier-val" id="dossier-company">—</span>
+                    </div>
+                    <div class="dossier-item">
+                      <span class="dossier-label">✉️ VERIFIED EMAIL</span>
+                      <span class="dossier-val text-success" id="dossier-email">None discovered</span>
+                    </div>
+                    <div class="dossier-item">
+                      <span class="dossier-label">📞 DIRECT PHONE / WA</span>
+                      <span class="dossier-val text-accent" id="dossier-phone">None</span>
+                    </div>
+                    <div class="dossier-item">
+                      <span class="dossier-label">💼 LINKEDIN PROFILE</span>
+                      <span class="dossier-val" id="dossier-linkedin">None</span>
+                    </div>
+                    <div class="dossier-item">
+                      <span class="dossier-label">📸 INSTAGRAM</span>
+                      <span class="dossier-val" id="dossier-instagram">None</span>
+                    </div>
+                    <div class="dossier-item">
+                      <span class="dossier-label">👤 KEY DECISION MAKER</span>
+                      <span class="dossier-val" id="dossier-decision-maker">Founder / Marketing Head</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="email-subject-wrap" class="mb-3">
+                  <label class="text-sm font-semibold">Subject Line</label>
+                  <input type="text" id="outreach-subject" class="w-full">
+                </div>
+
+                <div class="mb-3">
+                  <label class="text-sm font-semibold">Message Body</label>
+                  <textarea id="outreach-body" rows="11" class="w-full font-mono text-sm"></textarea>
+                </div>
+
+                <div class="outreach-action-bar">
+                  <div class="quick-links" id="outreach-quick-links"></div>
+                  <div class="flex gap-2 flex-wrap items-center">
+                    <button class="btn btn-secondary" onclick="copyOutreachText()">📋 Copy Text</button>
+                    <button class="btn btn-secondary" onclick="logChannelInteraction('whatsapp')">💬 Log WhatsApp</button>
+                    <button class="btn btn-secondary" onclick="logChannelInteraction('linkedin')">💼 Log LinkedIn</button>
+                    <button class="btn btn-primary" id="btn-send-email-direct" onclick="sendEmailDirect()">🚀 Direct Send Email</button>
+                  </div>
+                </div>
+
+                <!-- Prior Outreach History with this Company -->
+                <div class="card mt-4 company-history-box" id="company-history-card">
+                  <div class="card-header pb-2">
+                    <div>
+                      <h4 style="font-size: 13px;">📡 Outreach History with this Company</h4>
+                      <p class="text-secondary text-xs">Touchpoints and current situation for this business</p>
+                    </div>
+                    <span class="stage-badge" id="history-count-badge">0 touches</span>
+                  </div>
+                  <div class="table-wrap">
+                    <table class="table text-xs">
+                      <thead>
+                        <tr>
+                          <th>Means / Channel</th>
+                          <th>Recipient</th>
+                          <th>Subject / Context</th>
+                          <th>Sent At</th>
+                          <th>Current Situation</th>
+                          <th>Update</th>
+                        </tr>
+                      </thead>
+                      <tbody id="company-history-tbody">
+                        <tr><td colspan="6" class="text-center py-3 text-secondary">No prior touchpoints recorded for this prospect yet.</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 6. OUTREACH TRACKER VIEW -->
+        <section id="panel-tracker" class="view-panel">
+          <!-- Top Ribbon Metrics -->
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="metric-title">Total Approached</span>
+              <div class="metric-val" id="tr-kpi-approached">0</div>
+              <span class="metric-tag">Unique Companies</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-title">Emails Dispatched</span>
+              <div class="metric-val text-primary" id="tr-kpi-emails">0</div>
+              <span class="metric-tag">Direct & Automated</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-title">WhatsApp Touches</span>
+              <div class="metric-val text-accent" id="tr-kpi-whatsapp">0</div>
+              <span class="metric-tag">Direct WA Inquiries</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-title">Awaiting Reply</span>
+              <div class="metric-val text-warning" id="tr-kpi-awaiting">0</div>
+              <span class="metric-tag">Active Conversations</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-title">Follow-ups Due</span>
+              <div class="metric-val text-danger" id="tr-kpi-followups">0</div>
+              <span class="metric-tag">Needs Re-engagement</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-title">Meetings & Wins</span>
+              <div class="metric-val text-success" id="tr-kpi-meetings">0</div>
+              <span class="metric-tag">High Commercial Intent</span>
+            </div>
+          </div>
+
+          <!-- Tracker Main Card -->
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <h3>Real-Time Outreach Situation & Communication Tracker</h3>
+                <p class="text-secondary">Audit who was approached by what means, when they were contacted, and their real-time situation</p>
+              </div>
+              <div class="flex gap-2">
+                <button class="btn btn-primary" onclick="openBatchAutomationModal()">⚡ Auto-Send Batch</button>
+                <a href="/api/export/outreach-csv" class="btn btn-secondary" download>📥 Export Tracker CSV</a>
+              </div>
+            </div>
+
+            <!-- Filter Strip -->
+            <div class="filter-strip">
+              <div class="filter-input-wrap">
+                <input type="text" id="tracker-search" placeholder="Search company, contact info, subject..." oninput="debounceFetchTracker()">
+              </div>
+
+              <select id="tracker-filter-channel" onchange="fetchTracker()">
+                <option value="all">All Channels</option>
+                <option value="email">✉️ Email Only</option>
+                <option value="whatsapp">💬 WhatsApp Only</option>
+                <option value="linkedin">💼 LinkedIn Only</option>
+                <option value="instagram">📸 Instagram Only</option>
+                <option value="phone">📞 Phone Call</option>
+              </select>
+
+              <select id="tracker-filter-situation" onchange="fetchTracker()">
+                <option value="all">All Situations</option>
+                <option value="Awaiting Reply">⏳ Awaiting Reply</option>
+                <option value="Follow-up Due">⚠️ Follow-up Due</option>
+                <option value="Responded - Interested">🔥 Responded - Interested</option>
+                <option value="Meeting Scheduled">📅 Meeting Scheduled</option>
+                <option value="Proposal Sent">📑 Proposal Sent</option>
+                <option value="Won">🏆 Client Won</option>
+                <option value="Responded - Not Interested">❌ Not Interested</option>
+                <option value="Bounced">🛑 Bounced / Undeliverable</option>
+              </select>
+
+              <button class="btn btn-sm btn-ghost" onclick="fetchTracker()">🔄 Refresh</button>
+            </div>
+
+            <!-- Table -->
+            <div class="table-wrap">
+              <table class="table" id="tracker-table">
+                <thead>
+                  <tr>
+                    <th>Company & Market</th>
+                    <th>Means / Channel</th>
+                    <th>Recipient Contact</th>
+                    <th>Subject / Pitch Context</th>
+                    <th>Sent At</th>
+                    <th>Follow-up Due</th>
+                    <th>Current Situation</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="tracker-tbody">
+                  <tr><td colspan="8" class="text-center py-4 text-secondary">Loading outreach tracker...</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="pagination-bar">
+              <span id="tracker-count-label">Showing 0 outreach touchpoints</span>
+              <div class="pagination-actions">
+                <button class="btn btn-sm btn-outline" id="btn-tracker-prev" onclick="prevTrackerPage()">Previous</button>
+                <button class="btn btn-sm btn-outline" id="btn-tracker-next" onclick="nextTrackerPage()">Next</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 7. ANALYTICS VIEW -->
+        <section id="panel-analytics" class="view-panel">
+          <div class="split-grid">
+            <div class="card flex-1">
+              <h3>Market Distribution (Dubai vs India)</h3>
+              <div class="analytics-bar-item">
+                <div class="flex justify-between mb-1">
+                  <span>🇦🇪 Dubai (UAE)</span>
+                  <strong id="an-dubai-count">0</strong>
+                </div>
+                <div class="progress-track"><div id="an-dubai-bar" class="progress-fill accent" style="width: 50%;"></div></div>
+              </div>
+              <div class="analytics-bar-item mt-4">
+                <div class="flex justify-between mb-1">
+                  <span>🇮🇳 India</span>
+                  <strong id="an-india-count">0</strong>
+                </div>
+                <div class="progress-track"><div id="an-india-bar" class="progress-fill success" style="width: 50%;"></div></div>
+              </div>
+            </div>
+
+            <div class="card flex-1">
+              <h3>Industry Focus Breakdown</h3>
+              <div id="analytics-industry-list" class="mt-3">
+                <div class="text-secondary">Loading analytics...</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 7. SETTINGS & APIS VIEW -->
+        <section id="panel-settings" class="view-panel">
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <h3>Integrated API Adapters & Diagnostics</h3>
+                <p class="text-secondary">Direct connectivity verification with available discovery and enrichment engines</p>
+              </div>
+              <button class="btn btn-sm btn-outline" onclick="checkAdapterStatuses()">Run Health Diagnostics</button>
+            </div>
+
+            <div class="adapters-grid" id="adapters-diagnostics-grid">
+              <div class="text-secondary p-4">Running adapter checks...</div>
+            </div>
+          </div>
+
+          <!-- SMTP / Direct Email Configuration -->
+          <div class="card mt-4">
+            <div class="card-header">
+              <div>
+                <h3>Direct Email Dispatch & SMTP Server Settings</h3>
+                <p class="text-secondary">Configure your outgoing email provider (Google Workspace, Gmail, Zoho, SendGrid, Amazon SES) to send real cold emails directly</p>
+              </div>
+              <span id="smtp-status-badge" class="stage-badge ready">Checking SMTP...</span>
+            </div>
+
+            <form id="smtp-config-form" onsubmit="handleSaveSmtp(event)">
+              <div class="form-row">
+                <div class="form-field">
+                  <label>SMTP Server Host *</label>
+                  <input type="text" id="smtp-host" placeholder="smtp.gmail.com or smtp.zoho.com" required>
+                </div>
+                <div class="form-field">
+                  <label>SMTP Port *</label>
+                  <input type="text" id="smtp-port" placeholder="587 or 465" value="587" required>
+                </div>
+                <div class="form-field">
+                  <label>SSL / TLS Protocol</label>
+                  <select id="smtp-secure">
+                    <option value="false">STARTTLS / TLS (Port 587 - Recommended)</option>
+                    <option value="true">SSL Direct (Port 465)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-field">
+                  <label>SMTP Username / Email *</label>
+                  <input type="text" id="smtp-user" placeholder="your-email@lucidmediax.com" required>
+                </div>
+                <div class="form-field">
+                  <label>SMTP Password / App Password *</label>
+                  <input type="password" id="smtp-pass" placeholder="Enter App Password" class="custom-pwd-input">
+                </div>
+                <div class="form-field">
+                  <label>Sender From Header *</label>
+                  <input type="text" id="smtp-from" placeholder="Ashesh Thakur | LucidMediax <contact@lucidmediax.com>" required>
+                </div>
+              </div>
+
+              <div class="form-footer">
+                <span class="compliance-badge">🔒 Encrypted locally in SQLite • App passwords supported • Safe simulation when unconfigured</span>
+                <div class="flex gap-2">
+                  <button type="button" class="btn btn-secondary" onclick="handleTestSmtp()">🔌 Test Connection</button>
+                  <button type="submit" class="btn btn-primary">💾 Save SMTP Settings</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="card mt-4">
+            <div class="card-header">
+              <h3>Export Center</h3>
+            </div>
+            <div class="flex gap-4 flex-wrap">
+              <a href="/api/export/csv" class="btn btn-primary" download>📥 Download Complete Prospects CSV</a>
+              <a href="/api/export/csv?country=UAE" class="btn btn-secondary" download>🇦🇪 Download Dubai Only CSV</a>
+              <a href="/api/export/csv?country=India" class="btn btn-secondary" download>🇮🇳 Download India Only CSV</a>
+              <a href="/api/export/outreach-csv" class="btn btn-outline" download>📡 Export Outreach Tracker CSV</a>
+            </div>
+          </div>
+
+          <!-- Master Password & Security Settings -->
+          <div class="card mt-4">
+            <div class="card-header">
+              <div>
+                <h3>Master Password & Access Control</h3>
+                <p class="text-secondary">Password protection keeps your client pipeline, pitch intelligence, and SMTP credentials safe when hosted live</p>
+              </div>
+              <span class="auth-status-chip">🔒 Authenticated</span>
+            </div>
+
+            <form id="change-password-form" onsubmit="handleChangePassword(event)">
+              <div class="form-row">
+                <div class="form-field">
+                  <label>Current Master Password *</label>
+                  <div class="pwd-field-wrap">
+                    <input type="password" id="current-pwd" placeholder="Enter current password" required>
+                    <button type="button" class="pwd-toggle" onclick="togglePasswordVisibility('current-pwd')">👁️</button>
+                  </div>
+                </div>
+                <div class="form-field">
+                  <label>New Master Password * (Min 4 chars)</label>
+                  <div class="pwd-field-wrap">
+                    <input type="password" id="new-pwd" placeholder="Enter new strong password" minlength="4" required>
+                    <button type="button" class="pwd-toggle" onclick="togglePasswordVisibility('new-pwd')">👁️</button>
+                  </div>
+                </div>
+                <div class="form-field">
+                  <label>Confirm New Password *</label>
+                  <div class="pwd-field-wrap">
+                    <input type="password" id="confirm-pwd" placeholder="Re-enter new password" minlength="4" required>
+                    <button type="button" class="pwd-toggle" onclick="togglePasswordVisibility('confirm-pwd')">👁️</button>
+                  </div>
+                </div>
+              </div>
+
+              <div id="pwd-change-msg" class="text-xs mb-3" style="display: none;"></div>
+
+              <div class="form-footer">
+                <span class="compliance-badge">Session tokens are valid for 30 days and cryptographically tied to this master key</span>
+                <div class="flex gap-2">
+                  <button type="button" class="btn btn-secondary" onclick="handleLogout()">🔒 Lock Console Now</button>
+                  <button type="submit" class="btn btn-primary" id="btn-update-pwd">🔑 Update Master Password</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- Database Persistence & Cloud Hosting Protection -->
+          <div class="card mt-4">
+            <div class="card-header">
+              <div>
+                <h3>Database Persistence & Snapshot Backups</h3>
+                <p class="text-secondary">Your database stores prospects, campaign tags, notes, and outreach histories. Back up and guarantee persistence across live server restarts.</p>
+              </div>
+              <span class="stage-badge ready">SQLite WAL Engine</span>
+            </div>
+
+            <div class="p-4" style="background: rgba(16, 185, 129, 0.05); border: 1px solid rgba(16, 185, 129, 0.2); border-radius: 8px; margin-bottom: 16px;">
+              <div class="flex items-center gap-2 mb-2 font-semibold text-sm" style="color: #34d399;">
+                <span>🛡️ Zero Data-Loss Guarantee</span>
+              </div>
+              <p class="text-secondary text-xs" style="line-height: 1.6;">
+                The application stores all live data in <code style="color: #93c5fd;">data/lucidmediax_prospects.db</code>. When deploying to cloud platforms (Railway, Render, Fly.io, or VPS), attach a persistent volume to <code>/app/data</code>. This prevents cloud containers from wiping SQLite files when rebuilding or restarting.
+              </p>
+            </div>
+
+            <div class="flex gap-3 flex-wrap items-center">
+              <a href="/api/backup/database" id="link-db-backup" class="btn btn-primary" download>
+                💾 Download Complete SQLite Database (.db Snapshot)
+              </a>
+              <span class="text-dim text-xs">Auto-snapshots are also saved in <code>data/backups/</code> on each launch</span>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- BATCH AUTOMATION MODAL -->
+  <div id="batch-modal" class="modal-backdrop" style="display: none;">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div>
+          <h3>⚡ Auto-Send Batch Emails to Verified Leads</h3>
+          <p class="text-secondary text-xs">Automate personalized cold email outreach with safe delays and suppression checks</p>
+        </div>
+        <button class="btn btn-sm btn-ghost" onclick="closeBatchAutomationModal()">✕</button>
+      </div>
+
+      <div class="modal-body p-4">
+        <div class="form-row mb-3">
+          <div class="form-field">
+            <label>Target Market</label>
+            <select id="batch-market" onchange="updateBatchEligibleCount()">
+              <option value="all">Global (Dubai & India)</option>
+              <option value="UAE">🇦🇪 Dubai, UAE</option>
+              <option value="India">🇮🇳 India</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label>Minimum Lead Score</label>
+            <select id="batch-min-score" onchange="updateBatchEligibleCount()">
+              <option value="50" selected>50+ (All qualified prospects)</option>
+              <option value="70">70+ (High priority & above)</option>
+              <option value="80">80+ (Excellent tier only)</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label>Batch Size Limit</label>
+            <select id="batch-limit">
+              <option value="5">5 emails (Safe test run)</option>
+              <option value="10" selected>10 emails</option>
+              <option value="20">20 emails</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Live Matching Leads Counter -->
+        <div class="mb-3 p-2 flex justify-between items-center" style="background:#090c12; border:1px solid #1f2737; border-radius:6px; font-size:12px;">
+          <span>🎯 Uncontacted Prospects Matching Filter:</span>
+          <strong id="batch-eligible-count" class="text-success" style="font-size:13px;">Checking...</strong>
+        </div>
+
+        <div class="form-field mb-3">
+          <label>Delay Between Emails (seconds)</label>
+          <input type="text" id="batch-delay" value="3" placeholder="e.g. 3">
+          <span class="text-dim text-xs mt-1">Prevents server spam throttling and ensures natural delivery cadence.</span>
+        </div>
+
+        <div class="compliance-note p-3 mb-3" style="background: rgba(59, 130, 246, 0.08); border-radius: 6px; font-size: 11px;">
+          🛡️ <strong>Safety Safeguards:</strong> Only sends to prospects with verified emails who haven't been contacted yet. Auto-logs each dispatch in Outreach Tracker with a 3-day follow-up reminder.
+        </div>
+
+        <div id="batch-progress-box" style="display: none;" class="mb-3">
+          <div class="flex justify-between text-xs mb-1">
+            <span id="batch-status-text">Dispatching emails...</span>
+            <span id="batch-status-count">0 / 0</span>
+          </div>
+          <div class="progress-track"><div id="batch-progress-bar" class="progress-fill accent" style="width: 0%;"></div></div>
+        </div>
+
+        <div id="batch-result-msg" class="text-xs"></div>
+      </div>
+
+      <div class="modal-footer p-3 flex justify-between">
+        <button class="btn btn-secondary" onclick="closeBatchAutomationModal()">Cancel</button>
+        <button class="btn btn-primary" id="btn-start-batch" onclick="executeBatchAutomation()">🚀 Start Batch Automation</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MESSAGE DETAIL VIEWER MODAL -->
+  <div id="msg-modal" class="modal-backdrop" style="display: none;">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div>
+          <h3 id="msg-modal-title">Sent Outreach Pitch</h3>
+          <span id="msg-modal-meta" class="text-secondary text-xs"></span>
+        </div>
+        <button class="btn btn-sm btn-ghost" onclick="closeMessageModal()">✕</button>
+      </div>
+      <div class="modal-body p-4">
+        <div id="msg-modal-subject-box" class="mb-2">
+          <label class="text-xs font-semibold text-secondary">Subject</label>
+          <div id="msg-modal-subject" class="p-2 font-semibold text-sm" style="background:#090c12; border-radius:6px; border:1px solid #1f2737;"></div>
+        </div>
+        <div>
+          <label class="text-xs font-semibold text-secondary">Message Content</label>
+          <div id="msg-modal-body" class="p-3 font-mono text-xs whitespace-pre-wrap" style="background:#090c12; border-radius:6px; border:1px solid #1f2737; max-height: 280px; overflow-y:auto; line-height: 1.5;"></div>
+        </div>
+      </div>
+      <div class="modal-footer p-3 flex justify-between">
+        <button class="btn btn-secondary" onclick="closeMessageModal()">Close</button>
+        <button class="btn btn-primary" onclick="copyModalMessage()">📋 Copy Message</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MASTER PASSWORD LOGIN MODAL -->
+  <div id="auth-modal" style="display: flex;">
+    <div class="auth-card">
+      <div class="auth-brand-logo">LM</div>
+      <h2 class="auth-title">LucidMediax Intelligence</h2>
+      <p class="auth-subtitle">Client Acquisition Engine — Enter master password to unlock live command center.</p>
+
+      <div id="auth-error" class="auth-error-banner"></div>
+
+      <form id="auth-form" onsubmit="handleAuthSubmit(event)">
+        <div class="pwd-field-wrap mb-3">
+          <input type="password" id="auth-password-input" placeholder="Enter master password" autocomplete="current-password" autofocus required>
+          <button type="button" class="pwd-toggle" onclick="togglePasswordVisibility('auth-password-input')">👁️</button>
+        </div>
+
+        <button type="submit" class="auth-submit-btn" id="auth-submit-btn">
+          <span>🔓 Unlock Command Center</span>
+        </button>
+      </form>
+
+      <div class="auth-hint-pill">
+        <span>🔑 Default initial password: <strong>lucid2026</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
