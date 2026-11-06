@@ -17,7 +17,7 @@ class AuthService {
     } catch (e) {
       // ignore
     }
-    return process.env.ADMIN_PASSWORD || 'Lucid@402@1015';
+    return process.env.ADMIN_PASSWORD || 'lucid_admin_secure_change_me';
   }
 
   /**
