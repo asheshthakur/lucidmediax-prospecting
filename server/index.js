@@ -433,7 +433,14 @@ app.post('/api/import/existing', (req, res) => {
         country: 'India',
         city: 'Bokaro'
       },
-      { path: '/tmp/dubai_test.json', country: 'UAE', city: 'Dubai', area: 'Business Bay' }
+      {
+        path: fs.existsSync(path.join(seedsDir, 'dubai_business_bay.json'))
+          ? path.join(seedsDir, 'dubai_business_bay.json')
+          : '/tmp/dubai_test.json',
+        country: 'UAE',
+        city: 'Dubai',
+        area: 'Business Bay'
+      }
     ];
 
     let totalImported = 0;
@@ -886,9 +893,104 @@ app.get('/api/logs', (req, res) => {
   }
 });
 
+function autoSeedIfEmpty() {
+  try {
+    const row = db.prepare('SELECT COUNT(*) as count FROM prospects').get();
+    if (row && row.count === 0) {
+      console.log('[AutoSeed] Database is empty. Ingesting baseline datasets...');
+      const seedsDir = path.join(__dirname, '..', 'data', 'seeds');
+      const candidates = [
+        { path: path.join(seedsDir, 'dentists_patna.json'), country: 'India', city: 'Patna' },
+        { path: path.join(seedsDir, 'dentists_ranchi_under_top10.json'), country: 'India', city: 'Ranchi' },
+        { path: path.join(seedsDir, 'dermats_bokaro.json'), country: 'India', city: 'Bokaro' },
+        { path: path.join(seedsDir, 'dubai_business_bay.json'), country: 'UAE', city: 'Dubai', area: 'Business Bay' }
+      ];
+
+      const insertStmt = db.prepare(`
+        INSERT INTO prospects (
+          id, campaign_id, is_demo, business_name, category, categories,
+          country, city, area, address, latitude, longitude, timezone,
+          phone, phone_clean, website, email, email_status, email_source,
+          instagram_url, facebook_url, linkedin_url, twitter_url, google_maps_url,
+          place_id, rating, review_count, opening_hours, identified_problems,
+          recommended_services, executive_opportunity_brief, opportunity_score,
+          confidence_score, priority_tier, discovery_source, dedup_hash, status
+        ) VALUES (
+          @id, NULL, 0, @business_name, @category, @categories,
+          @country, @city, @area, @address, @latitude, @longitude, @timezone,
+          @phone, @phone_clean, @website, @email, @email_status, @email_source,
+          @instagram_url, @facebook_url, @linkedin_url, @twitter_url, @google_maps_url,
+          @place_id, @rating, @review_count, @opening_hours, @identified_problems,
+          @recommended_services, @executive_opportunity_brief, @opportunity_score,
+          @confidence_score, @priority_tier, 'Local Engine', @dedup_hash, 'New Lead'
+        )
+        ON CONFLICT(dedup_hash) DO NOTHING
+      `);
+
+      let totalImported = 0;
+      for (const item of candidates) {
+        if (fs.existsSync(item.path)) {
+          const raw = JSON.parse(fs.readFileSync(item.path, 'utf8'));
+          const leads = Array.isArray(raw) ? raw : (raw.results || raw.places || []);
+          for (const lead of leads) {
+            const leadObj = {
+              id: 'lead_' + Math.random().toString(36).substring(2, 11),
+              business_name: lead.title || lead.name || 'Unnamed Business',
+              category: lead.category || lead.main_category || 'Business',
+              categories: JSON.stringify(lead.categories || []),
+              country: item.country,
+              city: item.city,
+              area: item.area || '',
+              address: lead.address || lead.full_address || '',
+              latitude: lead.latitude || lead.lat || null,
+              longitude: lead.longitude || lead.lng || null,
+              timezone: item.country === 'UAE' ? 'Asia/Dubai' : 'Asia/Kolkata',
+              phone: lead.phone || '',
+              phone_clean: (lead.phone || '').replace(/[^0-9+]/g, ''),
+              website: lead.website || lead.link || '',
+              email: lead.email || '',
+              email_status: lead.email ? 'verified' : 'missing',
+              email_source: lead.email ? 'direct_maps' : 'none',
+              instagram_url: lead.instagram || (lead.socials && lead.socials.instagram) || '',
+              facebook_url: lead.facebook || (lead.socials && lead.socials.facebook) || '',
+              linkedin_url: lead.linkedin || (lead.socials && lead.socials.linkedin) || '',
+              twitter_url: lead.twitter || (lead.socials && lead.socials.twitter) || '',
+              google_maps_url: lead.url || lead.google_maps_url || '',
+              place_id: lead.place_id || '',
+              rating: lead.rating || lead.total_score || 0,
+              review_count: lead.reviews_count || lead.review_count || 0,
+              opening_hours: JSON.stringify(lead.opening_hours || lead.hours || {}),
+              dedup_hash: computeDedupHash(lead.title || lead.name, lead.phone, lead.website)
+            };
+
+            const evalRes = evaluateProspect(leadObj);
+            leadObj.opportunity_score = evalRes.opportunityScore;
+            leadObj.confidence_score = evalRes.confidenceScore;
+            leadObj.priority_tier = evalRes.priorityTier;
+            leadObj.identified_problems = JSON.stringify(evalRes.identifiedProblems);
+            leadObj.recommended_services = JSON.stringify(evalRes.recommendedServices);
+            leadObj.executive_opportunity_brief = evalRes.executiveBrief;
+
+            try {
+              const info = insertStmt.run(leadObj);
+              if (info.changes > 0) totalImported++;
+            } catch {}
+          }
+        }
+      }
+      console.log(`[AutoSeed] Ingested ${totalImported} baseline prospects.`);
+    }
+  } catch (err) {
+    console.warn('[AutoSeed] Notice:', err.message);
+  }
+}
+
 app.listen(PORT, () => {
   logActivity('system', `LucidMediax Growth Intelligence running on http://localhost:${PORT}`, 'info');
   console.log(`LucidMediax Client Acquisition Engine running at http://localhost:${PORT}`);
+
+  // Auto-seed if database is brand new
+  autoSeedIfEmpty();
 
   // Automated snapshot backup on server launch
   try {

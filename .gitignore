@@ -1,4 +1,9 @@
 node_modules/
 .env
-data/
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/backups/
+data/logs/
+!data/seeds/
 *.log

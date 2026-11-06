@@ -1,0 +1,2317 @@
+[
+  {
+    "title": "Dr Anjula",
+    "subTitle": "डॉ अंजुला",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "Sharda medical, Laxmi Market, sector 04, Bokaro Steel City, Jharkhand 827004, India",
+    "neighborhood": "sector 04",
+    "street": "Sharda medical, Laxmi Market",
+    "city": "Bokaro Steel City",
+    "postalCode": "827004",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "+91 86049 06320",
+    "phoneUnformatted": "+918604906320",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6718497,
+      "lng": 86.1486559
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJHX_dc9Aj9DkRO4O0RUPuSXI",
+    "categories": [
+      "Dermatologist",
+      "Skin care clinic"
+    ],
+    "fid": "0x39f423d073dd7f1d:0x7249ee4345b4833b",
+    "cid": "8235375366323340091",
+    "reviewsCount": 220,
+    "reviewsDistribution": {
+      "oneStar": 5,
+      "twoStar": 0,
+      "threeStar": 2,
+      "fourStar": 10,
+      "fiveStar": 203
+    },
+    "imagesCount": 11,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:22:41.370Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "10 AM to 7 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "10 AM to 7 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "10 AM to 7 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "10 AM to 7 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "10 AM to 7 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "10 AM to 7 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "10 AM to 7 PM"
+      }
+    ],
+    "wasOpenAtScrapeTime": false,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dr%20Anjula&query_place_id=ChIJHX_dc9Aj9DkRO4O0RUPuSXI",
+    "searchPageUrl": "https://www.google.com/maps/search/dermatologist%20Chas%20Bokaro?hl=en",
+    "searchString": "dermatologist Chas Bokaro",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLd-IKfYEI-QcqOfsp4NfHi42bKdXj-PG8jIu43qqwvGSi0ZPXsHr6Brpjep_3lSQMLMewhPG25aa4u8GZwFzkbYyKNhunRY1Re8eDPf_WnVqhJBXSjHJ8oNHjLz63rkBPVrnGEDDbrgG6-a=w408-h306-k-no",
+    "kgmid": "/g/11n9w1q2ky",
+    "businessProfileId": "11888515041929985142"
+  },
+  {
+    "title": "Dr. S.K Ravi",
+    "subTitle": "डॉ. स.के रवि",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "Vikram Enterprises Indane Gas Agency, near Ram Mandir, Sector 1, Bokaro Steel City, Jharkhand 827001, India",
+    "neighborhood": "Sector 1",
+    "street": "Vikram Enterprises Indane Gas Agency, near Ram Mandir",
+    "city": "Bokaro Steel City",
+    "postalCode": "827001",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "+91 95461 40242",
+    "phoneUnformatted": "+919546140242",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.651045,
+      "lng": 86.1568265
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJKyguMfUj9DkR45_J4t6oW4U",
+    "categories": [
+      "Dermatologist"
+    ],
+    "fid": "0x39f423f5312e282b:0x855ba8dee2c99fe3",
+    "cid": "9609459905166155747",
+    "reviewsCount": 29,
+    "reviewsDistribution": {
+      "oneStar": 5,
+      "twoStar": 0,
+      "threeStar": 0,
+      "fourStar": 2,
+      "fiveStar": 22
+    },
+    "imagesCount": 13,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:22:41.371Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "12 to 1 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Thursday",
+        "hours": "12 to 1 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Saturday",
+        "hours": "12 to 1 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "12 to 1 PM"
+      }
+    ],
+    "wasOpenAtScrapeTime": false,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dr.%20S.K%20Ravi&query_place_id=ChIJKyguMfUj9DkR45_J4t6oW4U",
+    "searchPageUrl": "https://www.google.com/maps/search/dermatologist%20Chas%20Bokaro?hl=en",
+    "searchString": "dermatologist Chas Bokaro",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLeddqX0rs3IlMfThpQLHwcLYKDzGKI__XpIzrOX0c_dV-1d2zbrdzrt9yxjRbJ9vn1prFwtkAg-SzIO7kbG2V55QUTvSiaOLjfmcLDaRThGJzQs58aSs6vQJTmBYoMjWLfwEWyPLg=w426-h240-k-no",
+    "kgmid": "/g/11rg8p6xk_",
+    "businessProfileId": "12466285093461488521"
+  },
+  {
+    "title": "Dr. S.K Ravi",
+    "subTitle": "डॉ. स.के रवि",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "171, Shubh Laxmi Indane Gas Agency, ITI more, Chas, Bokaro Steel City, Jharkhand 827013, India",
+    "neighborhood": "Chas",
+    "street": "171, Shubh Laxmi Indane Gas Agency, ITI more",
+    "city": "Bokaro Steel City",
+    "postalCode": "827013",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "+91 87975 91252",
+    "phoneUnformatted": "+918797591252",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6155337,
+      "lng": 86.1816264
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJTwOGbv4n9DkRTbuFxUZ-Gsw",
+    "categories": [
+      "Dermatologist"
+    ],
+    "fid": "0x39f427fe6e86034f:0xcc1a7e46c585bb4d",
+    "cid": "14707206375558462285",
+    "reviewsCount": 19,
+    "reviewsDistribution": {
+      "oneStar": 3,
+      "twoStar": 0,
+      "threeStar": 0,
+      "fourStar": 0,
+      "fiveStar": 16
+    },
+    "imagesCount": 13,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:22:41.371Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "10 to 11 AM, 1 to 2 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "10 to 11 AM, 1 to 2 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "10 to 11 AM, 1 to 2 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "10 to 11 AM, 1 to 2 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "10 to 11 AM, 1 to 2 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "10 to 11 AM, 1 to 2 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "10 AM to 1:30 PM"
+      }
+    ],
+    "wasOpenAtScrapeTime": false,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dr.%20S.K%20Ravi&query_place_id=ChIJTwOGbv4n9DkRTbuFxUZ-Gsw",
+    "searchPageUrl": "https://www.google.com/maps/search/dermatologist%20Chas%20Bokaro?hl=en",
+    "searchString": "dermatologist Chas Bokaro",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLcymuzBErvXg-DmD-RvJaXT96AH2ypOz6sU7us6pQcbR0wzz_vdhjq5Y0rDx3SrUDD--2w9PyYjMrvM1uG6UQjz9LVQ8oCK0J7OnqVj6QiqJUK5JzPs-ox0dLtOYJkYu80BKhmySw=w427-h240-k-no",
+    "kgmid": "/g/11q2r3rrds",
+    "businessProfileId": "1533273531223231695"
+  },
+  {
+    "title": "Dr. K P CHATERJEE",
+    "subTitle": "डॉ. चटर्जी",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "Gate No. 1, 46, Co-operative Colony Rd, Cooperative Colony, Bokaro Steel City, Jharkhand 827001, India",
+    "neighborhood": "Cooperative Colony",
+    "street": "Gate No. 1, 46, Co-operative Colony Rd",
+    "city": "Bokaro Steel City",
+    "postalCode": "827001",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 23.6514444,
+      "lng": 86.136038
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ22vEF8Qj9DkRU31to-ieBko",
+    "categories": [
+      "Dermatologist"
+    ],
+    "fid": "0x39f423c417c46bdb:0x4a069ee8a36d7d53",
+    "cid": "5334125530678394195",
+    "reviewsCount": 9,
+    "reviewsDistribution": {
+      "oneStar": 1,
+      "twoStar": 0,
+      "threeStar": 1,
+      "fourStar": 1,
+      "fiveStar": 6
+    },
+    "imagesCount": 4,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:22:41.371Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "wasOpenAtScrapeTime": null,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dr.%20K%20P%20CHATERJEE&query_place_id=ChIJ22vEF8Qj9DkRU31to-ieBko",
+    "searchPageUrl": "https://www.google.com/maps/search/dermatologist%20Chas%20Bokaro?hl=en",
+    "searchString": "dermatologist Chas Bokaro",
+    "language": "en",
+    "rank": 4,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLeI9yFkxgTTyhClAaAkDZWv8Khfm3Iqra1fGz4cqZ4ftZxZ0rWCpsjnz90g3-JNFyNnEOihrGahfWU8qsvTajlwL8q0OyGQfuG-2m0m4yON9UTpL3CTX9C3FyB-TtTBLx4qibCz=w408-h544-k-no",
+    "kgmid": "/g/11r_tnw59t",
+    "businessProfileId": null
+  },
+  {
+    "title": "Dr Pradeep",
+    "subTitle": "डॉ प्रदीप",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "SHRI RAM MEDICAL, Plot no.51, Co-operative Colony, Police Line, Bokaro Steel City, Jharkhand 827001, India",
+    "neighborhood": "Police Line",
+    "street": "SHRI RAM MEDICAL, Plot no.51, Co-operative Colony",
+    "city": "Bokaro Steel City",
+    "postalCode": "827001",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "website": "http://raskinc.co.in/",
+    "phone": "+91 87892 06515",
+    "phoneUnformatted": "+918789206515",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6506957,
+      "lng": 86.1358994
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJF82NO-Uj9DkR5a_zVmwEUFI",
+    "categories": [
+      "Dermatologist"
+    ],
+    "fid": "0x39f423e53b8dcd17:0x5250046c56f3afe5",
+    "cid": "5931245572608733157",
+    "reviewsCount": 116,
+    "reviewsDistribution": {
+      "oneStar": 9,
+      "twoStar": 3,
+      "threeStar": 4,
+      "fourStar": 6,
+      "fiveStar": 94
+    },
+    "imagesCount": 35,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:22:41.371Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8:30 AM to 10 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8:30 AM to 9:30 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8 AM to 10 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8 AM to 10 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8 AM to 10 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "8:30 AM to 10 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "10 AM to 1 PM, 3 to 5 PM"
+      }
+    ],
+    "wasOpenAtScrapeTime": false,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dr%20Pradeep&query_place_id=ChIJF82NO-Uj9DkR5a_zVmwEUFI",
+    "searchPageUrl": "https://www.google.com/maps/search/dermatologist%20Chas%20Bokaro?hl=en",
+    "searchString": "dermatologist Chas Bokaro",
+    "language": "en",
+    "rank": 5,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLeL5qw04D6s94C4NxJXKxg9azzaI2Xx1ZIhpewF0blgy-l2z1qR8h5opqrAwX4YYeu5WrjfFYa2SfY2oatBDwUlMajwzQIfU7gcwMM4wQQK4wbkHUvG3oh3z37PkpAg7bZJMFll=w408-h308-k-no",
+    "kgmid": "/g/11qg5t6cqb",
+    "businessProfileId": "2943297786124382751"
+  },
+  {
+    "title": "Dr. Anil Kumar Jha",
+    "subTitle": "डॉ॰ अनिल कुमार झा",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "MEDICO Plot No. 56, Cooperative Colony, Bokaro Steel City, Jharkhand 827001, India",
+    "neighborhood": "Cooperative Colony",
+    "street": "MEDICO Plot No. 56",
+    "city": "Bokaro Steel City",
+    "postalCode": "827001",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 23.6503724,
+      "lng": 86.1356522
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 2.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJAXBzQ4kj9DkRc5ub-jQnfn8",
+    "categories": [
+      "Dermatologist"
+    ],
+    "fid": "0x39f4238943737001:0x7f7e2734fa9b9b73",
+    "cid": "9186823398378675059",
+    "reviewsCount": 38,
+    "reviewsDistribution": {
+      "oneStar": 22,
+      "twoStar": 1,
+      "threeStar": 2,
+      "fourStar": 3,
+      "fiveStar": 10
+    },
+    "imagesCount": 1,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:22:41.371Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "wasOpenAtScrapeTime": true,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dr.%20Anil%20Kumar%20Jha&query_place_id=ChIJAXBzQ4kj9DkRc5ub-jQnfn8",
+    "searchPageUrl": "https://www.google.com/maps/search/dermatologist%20Chas%20Bokaro?hl=en",
+    "searchString": "dermatologist Chas Bokaro",
+    "language": "en",
+    "rank": 6,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=FGJLb1xnGrvuDjjypc_l_g&cb_client=search.gws-prod.grass&w=408&h=240&yaw=107.39943&pitch=0&thumbfov=100",
+    "kgmid": "/g/11hf2cskt8",
+    "businessProfileId": null
+  },
+  {
+    "title": "BeWell Clinics",
+    "subTitle": "बवेल क्लिनिक्स",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "138, First floor, Cooperative Colony, Bokaro Steel City, Jharkhand 827001, India",
+    "neighborhood": "Cooperative Colony",
+    "street": "138, First floor",
+    "city": "Bokaro Steel City",
+    "postalCode": "827001",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "website": "https://bewellclinics.in/",
+    "phone": "+91 62019 49458",
+    "phoneUnformatted": "+916201949458",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6481419,
+      "lng": 86.1320027
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJL5FXMlIj9DkRS4zx9cLsBi8",
+    "categories": [
+      "Dermatologist",
+      "Laser hair removal service",
+      "Skin care clinic"
+    ],
+    "fid": "0x39f423523257912f:0x2f06ecc2f5f18c4b",
+    "cid": "3388656091736935499",
+    "reviewsCount": 236,
+    "reviewsDistribution": {
+      "oneStar": 17,
+      "twoStar": 3,
+      "threeStar": 6,
+      "fourStar": 8,
+      "fiveStar": 202
+    },
+    "imagesCount": 438,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:22:41.371Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "10:30 AM to 1 PM, 4:30 to 7 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "4:30 to 7 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "10:30 AM to 1 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "4:30 to 7 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "4:30 to 7 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "10 AM to 1 PM"
+      }
+    ],
+    "wasOpenAtScrapeTime": false,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=BeWell%20Clinics&query_place_id=ChIJL5FXMlIj9DkRS4zx9cLsBi8",
+    "searchPageUrl": "https://www.google.com/maps/search/dermatologist%20Chas%20Bokaro?hl=en",
+    "searchString": "dermatologist Chas Bokaro",
+    "language": "en",
+    "rank": 7,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLfMDszCW4Gbb6muj2AiisU1gt_-xauvbPan-10BdSq1-z7-MdTU39zMhvMyiYe7HOG25EvJmuDbugF0GwssLwqj_Onii0ANnTopTxurhlJIFst_R3fjwsTCcrZg3QvFjaIIf-e3Vtbq6AKe=w408-h272-k-no",
+    "kgmid": "/g/11h3pvc_zh",
+    "businessProfileId": "15191218628828678721"
+  },
+  {
+    "title": "Dr Batra's Homeopathy, Hair & Skin clinic",
+    "subTitle": "डॉ बत्रा'स होम्योपैथी, हेयर & स्किन क्लिनिक",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "1st flr, Main Rd, opposite Chandra Trends, Bihar Colony, Chas, Bokaro Steel City, Jharkhand 827013, India",
+    "neighborhood": "Bihar Colony, Chas",
+    "street": "1st flr, Main Rd, opposite Chandra Trends",
+    "city": "Bokaro Steel City",
+    "postalCode": "827013",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "website": "https://clinics.drbatras.com/bokaro/homeopathy-clinic-main-road-chas",
+    "phone": "+91 70450 00666",
+    "phoneUnformatted": "+917045000666",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6334068,
+      "lng": 86.1783044
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJyXtBwSsh9DkRMbBOvVirZh8",
+    "categories": [
+      "Dermatologist",
+      "Allergist",
+      "Homeopath",
+      "Diabetologist",
+      "Endocrinologist",
+      "Gastroenterologist",
+      "Psychologist",
+      "Pulmonologist",
+      "Rheumatologist"
+    ],
+    "fid": "0x39f4212bc1417bc9:0x1f66ab58bd4eb031",
+    "cid": "2262684260421775409",
+    "reviewsCount": 114,
+    "reviewsDistribution": {
+      "oneStar": 9,
+      "twoStar": 2,
+      "threeStar": 1,
+      "fourStar": 4,
+      "fiveStar": 98
+    },
+    "imagesCount": 0,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:22:41.371Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "11 AM to 8 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "11 AM to 8 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "11 AM to 8 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "11 AM to 8 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "11 AM to 8 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "10 AM to 9 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "10 AM to 9 PM"
+      }
+    ],
+    "wasOpenAtScrapeTime": false,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dr%20Batra's%20Homeopathy%2C%20Hair%20%26%20Skin%20clinic&query_place_id=ChIJyXtBwSsh9DkRMbBOvVirZh8",
+    "searchPageUrl": "https://www.google.com/maps/search/dermatologist%20Chas%20Bokaro?hl=en",
+    "searchString": "dermatologist Chas Bokaro",
+    "language": "en",
+    "rank": 8,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLcfUVviViWHchcy5hFxcvwVNvlbtilvLRxQZVYUMiTMk2uh16iEbO-OgTPljZN4nXvTmwDcizzoh0OgiqapDuIsTmgu3r4Uzn5DgDaiFFkUHxCBzewSxZR0s4nIQ3dc4LhVvTpx=w426-h240-k-no",
+    "kgmid": "/g/11t9kj7smp",
+    "businessProfileId": "15381330369837134156"
+  },
+  {
+    "title": "Dr. Dharmendra Kumar",
+    "subTitle": "दर. धर्मेंद्र कुमार",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "Skin & Smile Laser Clinic Sector- Iv, Plot No. Jb- 12, Landmark:, behind Jeetendra Cinema, Bokaro Steel City, Jharkhand 827004, India",
+    "neighborhood": "Sector 4",
+    "street": "Skin & Smile Laser Clinic Sector- Iv, Plot No. Jb- 12, Landmark:, behind Jeetendra Cinema",
+    "city": "Bokaro Steel City",
+    "postalCode": "827004",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "website": "https://drdharmendrakumar67171.getmy.clinic/?utm_source=gmb&utm_medium=web&utm_campaign=tu",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6664717,
+      "lng": 86.1479893
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ-QaPo4Ij9DkRCV28GvKIwpk",
+    "categories": [
+      "Dermatologist",
+      "Allergist",
+      "Pediatric dermatologist",
+      "Skin care clinic",
+      "Venereologist"
+    ],
+    "fid": "0x39f42382a38f06f9:0x99c288f21abc5d09",
+    "cid": "11079568606696856841",
+    "reviewsCount": 3,
+    "reviewsDistribution": {
+      "oneStar": 1,
+      "twoStar": 0,
+      "threeStar": 0,
+      "fourStar": 0,
+      "fiveStar": 2
+    },
+    "imagesCount": 1,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:22:41.371Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "9 AM to 2 PM, 6 to 9 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "9 AM to 2 PM, 6 to 9 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "9 AM to 2 PM, 6 to 9 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "9 AM to 2 PM, 6 to 9 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "9 AM to 2 PM, 6 to 9 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "9 AM to 2 PM, 6 to 9 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "wasOpenAtScrapeTime": false,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dr.%20Dharmendra%20Kumar&query_place_id=ChIJ-QaPo4Ij9DkRCV28GvKIwpk",
+    "searchPageUrl": "https://www.google.com/maps/search/dermatologist%20Chas%20Bokaro?hl=en",
+    "searchString": "dermatologist Chas Bokaro",
+    "language": "en",
+    "rank": 9,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=k0NlTik0H848uQdYvOvxVQ&cb_client=search.gws-prod.grass&w=408&h=240&yaw=307.93127&pitch=0&thumbfov=100",
+    "kgmid": "/g/11rhf857hf",
+    "businessProfileId": "9883291145946986367"
+  },
+  {
+    "title": "Dr. Prahlad Prasad",
+    "subTitle": "डॉ प्रहलाद प्रसाद",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Skin care clinic",
+    "address": "shopping center, near Kali Mandir, Cooperative Colony, Bokaro Steel City, Jharkhand 827001, India",
+    "neighborhood": "Cooperative Colony",
+    "street": "shopping center, near Kali Mandir",
+    "city": "Bokaro Steel City",
+    "postalCode": "827001",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "+91 93048 84385",
+    "phoneUnformatted": "+919304884385",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6437833,
+      "lng": 86.1315367
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJnWJI03Qj9DkRQSft3gcS9l0",
+    "categories": [
+      "Skin care clinic"
+    ],
+    "fid": "0x39f42374d348629d:0x5df61207deed2741",
+    "cid": "6770618914812274497",
+    "reviewsCount": 6,
+    "reviewsDistribution": {
+      "oneStar": 2,
+      "twoStar": 1,
+      "threeStar": 0,
+      "fourStar": 0,
+      "fiveStar": 3
+    },
+    "imagesCount": 4,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:22:41.371Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "9 AM to 5 PM"
+      }
+    ],
+    "wasOpenAtScrapeTime": false,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dr.%20Prahlad%20Prasad&query_place_id=ChIJnWJI03Qj9DkRQSft3gcS9l0",
+    "searchPageUrl": "https://www.google.com/maps/search/dermatologist%20Chas%20Bokaro?hl=en",
+    "searchString": "dermatologist Chas Bokaro",
+    "language": "en",
+    "rank": 10,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=A_jLtxg8AGUWZVqo8Lu_6Q&cb_client=search.gws-prod.grass&w=408&h=240&yaw=272.18594&pitch=0&thumbfov=100",
+    "kgmid": "/g/11c53jm297",
+    "businessProfileId": "18389789094868461104"
+  },
+  {
+    "title": "Dr. Kumar's Studio",
+    "subTitle": "डॉ. कुमार'स स्टूडियो",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Skin care clinic",
+    "address": "Shop No. -06, Gurudwara Market, Gurudwara Rd, near Sector -2, Sector 2C, Bokaro Steel City, Jharkhand 827001, India",
+    "neighborhood": "Sector 2C",
+    "street": "Shop No. -06, Gurudwara Market, Gurudwara Rd, near Sector -2",
+    "city": "Bokaro Steel City",
+    "postalCode": "827001",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "+91 62090 90809",
+    "phoneUnformatted": "+916209090809",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6525075,
+      "lng": 86.1480055
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.9,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJFVeVRK8j9DkRXfhNN-k9Zek",
+    "categories": [
+      "Skin care clinic",
+      "Nutritionist",
+      "Dentist"
+    ],
+    "fid": "0x39f423af44955715:0xe9653de9374df85d",
+    "cid": "16817916455349516381",
+    "reviewsCount": 26,
+    "reviewsDistribution": {
+      "oneStar": 0,
+      "twoStar": 0,
+      "threeStar": 0,
+      "fourStar": 2,
+      "fiveStar": 24
+    },
+    "imagesCount": 36,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:23:00.984Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "11 AM to 2 PM, 5 to 8 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "11 AM to 2 PM, 5 to 8 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "11 AM to 2 PM, 5 to 8 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "11 AM to 2 PM, 5 to 8 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "11 AM to 2 PM, 5 to 8 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "11 AM to 2 PM, 5 to 8 PM"
+      }
+    ],
+    "wasOpenAtScrapeTime": false,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dr.%20Kumar's%20Studio&query_place_id=ChIJFVeVRK8j9DkRXfhNN-k9Zek",
+    "searchPageUrl": "https://www.google.com/maps/search/skin%20specialist%20in%20Bokaro?hl=en",
+    "searchString": "skin specialist in Bokaro",
+    "language": "en",
+    "rank": 7,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLdc8YcXUVjHkXMy--eQdG9H4OndxsPPCVho45l8Hba83RRBwHl7Au3pFbH3Sxi0HxhJF3oqfvgLlR1SHq59M1XVoCExPpj2S3lYcQMcXyVkMqx_ncgLCxeesaGjIC2i_lxkbiY7=w408-h306-k-no",
+    "kgmid": "/g/11l5sx11cn",
+    "businessProfileId": "12810214950313496429"
+  },
+  {
+    "title": "Wellness hospital and research center (Dr Safi nayaj)",
+    "subTitle": "वेलनेस हॉस्पिटल एंड रिसर्च सेंटर (डॉ सफी नयाज)",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "Plot no.- HE4, City Centre, Sector 4, Bokaro Steel City, Jharkhand 827004, India",
+    "neighborhood": "Sector 4",
+    "street": "Plot no.- HE4, City Centre",
+    "city": "Bokaro Steel City",
+    "postalCode": "827004",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "website": "https://wellnesshospital.org/",
+    "phone": "+91 91428 28178",
+    "phoneUnformatted": "+919142828178",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6672116,
+      "lng": 86.1477259
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJZR-NZ0P0GSURklLkuOYapaM",
+    "categories": [
+      "Dermatologist",
+      "Doctor",
+      "Gynecologist",
+      "Hospital",
+      "Maternity hospital",
+      "Pediatric dermatologist",
+      "Skin care clinic"
+    ],
+    "fid": "0x2519f443678d1f65:0xa3a51ae6b8e45292",
+    "cid": "11791860777586283154",
+    "reviewsCount": 87,
+    "reviewsDistribution": {
+      "oneStar": 3,
+      "twoStar": 0,
+      "threeStar": 0,
+      "fourStar": 2,
+      "fiveStar": 82
+    },
+    "imagesCount": 80,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:23:00.984Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "wasOpenAtScrapeTime": true,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Wellness%20hospital%20and%20research%20center%20(Dr%20Safi%20nayaj)&query_place_id=ChIJZR-NZ0P0GSURklLkuOYapaM",
+    "searchPageUrl": "https://www.google.com/maps/search/skin%20specialist%20in%20Bokaro?hl=en",
+    "searchString": "skin specialist in Bokaro",
+    "language": "en",
+    "rank": 8,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLeHmydi0aHE7Xh_LPW3Oqg1apQBxaDYVL90gmsfc9oovyjuN8K8z0uHrtf1YKDGOgIB7sBhSlM_5DK3yC4SzXM9dIHOrHfz4Ua1enTNufcF87qgb3l5v_MIPW_ULF8-yDhdpPezSmnPOws=w408-h542-k-no",
+    "kgmid": "/g/11x_39h2t1",
+    "businessProfileId": "1290933399418716883"
+  },
+  {
+    "title": "Dr. Bhagyashree Mandal (Sanjivani Medicals sec 04)",
+    "subTitle": "डॉ. भाग्यश्री मंडल (संजीवनी मेडिकल्स सेक 04)",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "Sanjivani Medicals, near The Bokaro Mall Road, City Center, Sector 04, Sector 4, Bokaro Steel City, Jharkhand 827004, India",
+    "neighborhood": "City Center, Sector 04, Sector 4",
+    "street": "Sanjivani Medicals, near The Bokaro Mall Road",
+    "city": "Bokaro Steel City",
+    "postalCode": "827004",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "+91 98353 95163",
+    "phoneUnformatted": "+919835395163",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6653739,
+      "lng": 86.1474089
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJqawIKQAj9DkRva-ycH8RieE",
+    "categories": [
+      "Dermatologist"
+    ],
+    "fid": "0x39f423002908aca9:0xe189117f70b2afbd",
+    "cid": "16251539969392422845",
+    "reviewsCount": 6,
+    "reviewsDistribution": {
+      "oneStar": 0,
+      "twoStar": 0,
+      "threeStar": 0,
+      "fourStar": 0,
+      "fiveStar": 6
+    },
+    "imagesCount": 25,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:23:00.985Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "10 AM to 12 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "10 AM to 12 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "10 AM to 12 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "10 AM to 12 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "10 AM to 12 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "10 AM to 12 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "wasOpenAtScrapeTime": false,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dr.%20Bhagyashree%20Mandal%20(Sanjivani%20Medicals%20sec%2004)&query_place_id=ChIJqawIKQAj9DkRva-ycH8RieE",
+    "searchPageUrl": "https://www.google.com/maps/search/skin%20specialist%20in%20Bokaro?hl=en",
+    "searchString": "skin specialist in Bokaro",
+    "language": "en",
+    "rank": 11,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLd4w2xho0xKWNg1JT1Zck3fsETbHHVJU3YzP9FYZFA8Zgy44F4aDehZHGBiOeeiuDnyAXfaztO2BeuxrOA1Be8vUTyLEAmyTdTNCmmvqJ_-XNOkd-V5SKFlvTWTQjvwF6mYjvz99LATketQ=w408-h906-k-no",
+    "kgmid": "/g/11z_lm_rm5",
+    "businessProfileId": "14811744716642042939"
+  },
+  {
+    "title": "Dr Alka Kumari ,MD Dermatology (Skin Specialist)",
+    "subTitle": "डॉ अलका कुमारी ,एमडी डर्मेटोलॉजी (स्किन स्पेशलिस्ट)",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "Baba Medical, Cooperative Colony, Bokaro Steel City, Jharkhand 827001, India",
+    "neighborhood": "Cooperative Colony",
+    "street": "Baba Medical",
+    "city": "Bokaro Steel City",
+    "postalCode": "827001",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6513592,
+      "lng": 86.1362865
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": null,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ4akZP3wj9DkRXsXUIxV0BiQ",
+    "categories": [
+      "Dermatologist"
+    ],
+    "fid": "0x39f4237c3f19a9e1:0x2406741523d4c55e",
+    "cid": "2595889869369951582",
+    "reviewsCount": null,
+    "imagesCount": 2,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:23:00.985Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "3 to 4 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Thursday",
+        "hours": "1 to 2 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Saturday",
+        "hours": "1 to 2 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "wasOpenAtScrapeTime": false,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dr%20Alka%20Kumari%20%2CMD%20Dermatology%20(Skin%20Specialist)&query_place_id=ChIJ4akZP3wj9DkRXsXUIxV0BiQ",
+    "searchPageUrl": "https://www.google.com/maps/search/skin%20specialist%20in%20Bokaro?hl=en",
+    "searchString": "skin specialist in Bokaro",
+    "language": "en",
+    "rank": 12,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=zRwrjtyly-sO6EJ8re_wFg&cb_client=search.gws-prod.grass&w=408&h=240&yaw=105.50004&pitch=0&thumbfov=100",
+    "kgmid": "/g/11npw9fvkb",
+    "businessProfileId": "10276092695643003692"
+  },
+  {
+    "title": "Skin & Smile Laser & Dental Clinic",
+    "subTitle": "त्वचा और मुस्कान लेजर क्लीनिक",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "JB-07, behind Jitendra cinema, Sector 4, Bokaro Steel City, Jharkhand 827004, India",
+    "neighborhood": "Sector 4",
+    "street": "JB-07, behind Jitendra cinema",
+    "city": "Bokaro Steel City",
+    "postalCode": "827004",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "+91 74628 20040",
+    "phoneUnformatted": "+917462820040",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.666572,
+      "lng": 86.149897
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJJ6o7mLQj9DkRg-8b6Agcdk4",
+    "categories": [
+      "Dermatologist",
+      "Dental clinic"
+    ],
+    "fid": "0x39f423b4983baa27:0x4e761c08e81bef83",
+    "cid": "5653737206789697411",
+    "reviewsCount": 47,
+    "reviewsDistribution": {
+      "oneStar": 8,
+      "twoStar": 1,
+      "threeStar": 0,
+      "fourStar": 4,
+      "fiveStar": 34
+    },
+    "imagesCount": 13,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:23:00.985Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "10 AM to 2 PM, 5 to 8 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "10 AM to 2 PM, 5 to 8 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "10 AM to 2 PM, 5 to 8 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "10 AM to 2 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "10 AM to 2 PM, 5 to 8 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "10 AM to 2 PM, 5 to 8 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "10 AM to 2 PM, 5 to 8 PM"
+      }
+    ],
+    "wasOpenAtScrapeTime": false,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Skin%20%26%20Smile%20Laser%20%26%20Dental%20Clinic&query_place_id=ChIJJ6o7mLQj9DkRg-8b6Agcdk4",
+    "searchPageUrl": "https://www.google.com/maps/search/skin%20specialist%20in%20Bokaro?hl=en",
+    "searchString": "skin specialist in Bokaro",
+    "language": "en",
+    "rank": 14,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLew0lamthd0SKYm07GON9C0kQv_D_GiaRa1Vaakux1b5BwF04QejGnK4z2pM2AI47eA6vzlWtyPUkfnau0-bvUDW5M7rFKL1aXbU880thc68Nm10z32FyFL1I8Jq6A26SWpVtW0=w426-h240-k-no",
+    "kgmid": "/g/11bz0nkbfd",
+    "businessProfileId": "12707245124628704741"
+  },
+  {
+    "title": "Apollo Clinic Bokaro",
+    "subTitle": "अपोलो क्लिनिक बोकारो",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "Plot No - S- 17, near Circus Maidan, City Center, Sector 4, Bokaro Steel City, Jharkhand 827004, India",
+    "neighborhood": "City Center, Sector 4",
+    "street": "Plot No - S- 17, near Circus Maidan",
+    "city": "Bokaro Steel City",
+    "postalCode": "827004",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "+91 90316 40446",
+    "phoneUnformatted": "+919031640446",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6646435,
+      "lng": 86.1529891
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.9,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ8a6Haskj9DkRR1gFWClT2-o",
+    "categories": [
+      "Dermatologist",
+      "Dental clinic",
+      "Medical Center",
+      "Diabetes center",
+      "Diagnostic center",
+      "Health counselor",
+      "Hospital",
+      "Laboratory",
+      "Medical clinic",
+      "Pharmacy"
+    ],
+    "fid": "0x39f423c96a87aef1:0xeadb532958055847",
+    "cid": "16923211461810280519",
+    "reviewsCount": 1071,
+    "reviewsDistribution": {
+      "oneStar": 20,
+      "twoStar": 1,
+      "threeStar": 6,
+      "fourStar": 45,
+      "fiveStar": 999
+    },
+    "imagesCount": 136,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:23:00.985Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "7:30 AM to 9:30 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "7:30 AM to 9:30 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "7:30 AM to 9:30 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "7:30 AM to 9:30 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "7:30 AM to 9:30 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "7:30 AM to 9:30 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "7:30 AM to 9:30 PM"
+      }
+    ],
+    "wasOpenAtScrapeTime": false,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Apollo%20Clinic%20Bokaro&query_place_id=ChIJ8a6Haskj9DkRR1gFWClT2-o",
+    "searchPageUrl": "https://www.google.com/maps/search/skin%20specialist%20in%20Bokaro?hl=en",
+    "searchString": "skin specialist in Bokaro",
+    "language": "en",
+    "rank": 17,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLdkMLyiu86dqJ9MJBrBLQTTxrB_1oMkNGWe6ZvNO3LyI3wWkddBfCHLoxhMs5oSziwf48LQzwp9OP7jztcqL9Ejb0Hqe-20kwCb7KlC2bodcLFHIAYhEzDxwZaHU1kpzrrcgHVsOg=w408-h271-k-no",
+    "kgmid": "/g/11ks48zf51",
+    "businessProfileId": "6637775153687478164"
+  },
+  {
+    "title": "BABA HEATH CARE CLINIC",
+    "subTitle": "बाबा हीथ केयर क्लिनिक",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Skin care clinic",
+    "address": "Marafari, Bokaro Steel City, Jharkhand 827001, India",
+    "neighborhood": "Marafari",
+    "street": null,
+    "city": "Bokaro Steel City",
+    "postalCode": "827001",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "+91 99554 62127",
+    "phoneUnformatted": "+919955462127",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6734846,
+      "lng": 86.1293793
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": null,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJb4fqYGYj9DkRIeLcvUvFRGM",
+    "categories": [
+      "Skin care clinic"
+    ],
+    "fid": "0x39f4236660ea876f:0x6344c54bbddce221",
+    "cid": "7153059037269778977",
+    "reviewsCount": null,
+    "imagesCount": 1,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:23:00.985Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "wasOpenAtScrapeTime": null,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=BABA%20HEATH%20CARE%20CLINIC&query_place_id=ChIJb4fqYGYj9DkRIeLcvUvFRGM",
+    "searchPageUrl": "https://www.google.com/maps/search/skin%20specialist%20in%20Bokaro?hl=en",
+    "searchString": "skin specialist in Bokaro",
+    "language": "en",
+    "rank": 18,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=DifDKYJoJCiAjs6jH0TBxg&cb_client=search.gws-prod.grass&w=408&h=240&yaw=91.02728&pitch=0&thumbfov=100",
+    "kgmid": "/g/11s5gkcq3g",
+    "businessProfileId": "8513782524141273608"
+  },
+  {
+    "title": "Doctor",
+    "subTitle": "डॉक्टर",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "Sector 5, Bokaro Steel City, Jharkhand 827006, India",
+    "neighborhood": "Sector 5",
+    "street": null,
+    "city": "Bokaro Steel City",
+    "postalCode": "827006",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6655125,
+      "lng": 86.167546
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": null,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJV5RUz7Uj9DkRPYJ1yyxb-dw",
+    "categories": [
+      "Dermatologist"
+    ],
+    "fid": "0x39f423b5cf549457:0xdcf95b2ccb75823d",
+    "cid": "15922858205495263805",
+    "reviewsCount": null,
+    "imagesCount": 2,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:23:00.985Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "9 AM to 5 PM"
+      }
+    ],
+    "wasOpenAtScrapeTime": false,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Doctor&query_place_id=ChIJV5RUz7Uj9DkRPYJ1yyxb-dw",
+    "searchPageUrl": "https://www.google.com/maps/search/skin%20specialist%20in%20Bokaro?hl=en",
+    "searchString": "skin specialist in Bokaro",
+    "language": "en",
+    "rank": 19,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=TgOOoae2kynKei8zqIngFA&cb_client=search.gws-prod.grass&w=408&h=240&yaw=16.638708&pitch=0&thumbfov=100",
+    "kgmid": "/g/11l2g3lyvl",
+    "businessProfileId": "8158432133180049723"
+  },
+  {
+    "title": "Skin Department BGH",
+    "subTitle": "स्किन डिपार्टमेंट भग",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Hospital department",
+    "address": "M4GV+3V8, Gumla Colony, Bokaro Steel City, Jharkhand 827009, India",
+    "neighborhood": "Gumla Colony",
+    "street": "M4GV+3V8",
+    "city": "Bokaro Steel City",
+    "postalCode": "827009",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 23.6751668,
+      "lng": 86.1447118
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ83v8GE4i9DkR_m05n7nJTuY",
+    "categories": [
+      "Hospital department"
+    ],
+    "fid": "0x39f4224e18fc7bf3:0xe64ec9b99f396dfe",
+    "cid": "16595423475984330238",
+    "reviewsCount": 3,
+    "reviewsDistribution": {
+      "oneStar": 0,
+      "twoStar": 0,
+      "threeStar": 0,
+      "fourStar": 1,
+      "fiveStar": 2
+    },
+    "imagesCount": 16,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:23:00.985Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "wasOpenAtScrapeTime": null,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Skin%20Department%20BGH&query_place_id=ChIJ83v8GE4i9DkR_m05n7nJTuY",
+    "searchPageUrl": "https://www.google.com/maps/search/skin%20specialist%20in%20Bokaro?hl=en",
+    "searchString": "skin specialist in Bokaro",
+    "language": "en",
+    "rank": 20,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLdKzreDIPklw7ksgt86K2sMob1OqA1pD8vpRZ4ep7_--vYMOYMmJU3JpSrqOVbKQZ_UggbZOwii29pDyGIdJqnq-nt6kcaLLmTR9H1tSym8s9ZebiOWEAB9FDCpH8XZD4XB5a2PUuyKnNE=w408-h544-k-no",
+    "kgmid": "/g/11ggszl7_0",
+    "businessProfileId": null
+  },
+  {
+    "title": "HAIR TREATMENT IN HOMEOPATHY",
+    "subTitle": "बालों उपचार में होम्योपैथी",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Dermatologist",
+    "address": "Plot no, 155, Co-operative Colony Rd, Cooperative Colony, Bokaro Steel City, Jharkhand 827001, India",
+    "neighborhood": "Cooperative Colony",
+    "street": "Plot no, 155, Co-operative Colony Rd",
+    "city": "Bokaro Steel City",
+    "postalCode": "827001",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "+91 89867 21098",
+    "phoneUnformatted": "+918986721098",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6476759,
+      "lng": 86.1330599
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ_0m-Hgoj9DkRWD6NxybJkEg",
+    "categories": [
+      "Dermatologist"
+    ],
+    "fid": "0x39f4230a1ebe49ff:0x4890c926c78d3e58",
+    "cid": "5228900335771008600",
+    "reviewsCount": 10,
+    "reviewsDistribution": {
+      "oneStar": 7,
+      "twoStar": 0,
+      "threeStar": 0,
+      "fourStar": 2,
+      "fiveStar": 1
+    },
+    "imagesCount": 8,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:23:55.151Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "10 AM to 12 PM, 5 to 7 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "10 AM to 12 PM, 5 to 7 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "10 AM to 12 PM, 5 to 7 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "10 AM to 12 PM, 5 to 7 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "10 AM to 12 PM, 5 to 7 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "10 AM to 12 PM, 5 to 7 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "10 AM to 1 PM, 5 to 7 PM"
+      }
+    ],
+    "wasOpenAtScrapeTime": false,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=HAIR%20TREATMENT%20IN%20HOMEOPATHY&query_place_id=ChIJ_0m-Hgoj9DkRWD6NxybJkEg",
+    "searchPageUrl": "https://www.google.com/maps/search/skin%20clinic%20in%20Bokaro?hl=en",
+    "searchString": "skin clinic in Bokaro",
+    "language": "en",
+    "rank": 16,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLefa-DKdVaDTiJ4p6WT5V5hKwqsOCRKcobGgmiaFHMmEiJFmoYoEQcv_ZfYKNu4ESYOvlIaf33DjWYbylVJ43VMl5YQMesm1QfNBEXbf-gjpYbZv2lUaS-L87SHIl4syGKUvIsp=w408-h379-k-no",
+    "kgmid": "/g/11byl926xm",
+    "businessProfileId": "11221278678442704871"
+  },
+  {
+    "title": "byeacne",
+    "subTitle": "ब्यासन",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Skin care clinic",
+    "address": "Industrial Area Rd, Balidih, Bokaro Steel City, Jharkhand 827014, India",
+    "neighborhood": "Balidih",
+    "street": "Industrial Area Rd",
+    "city": "Bokaro Steel City",
+    "postalCode": "827014",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 23.6853206,
+      "lng": 86.0613005
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": null,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJtQzqwEo99DkRwG5tJk52Xic",
+    "categories": [
+      "Skin care clinic"
+    ],
+    "fid": "0x39f43d4ac0ea0cb5:0x275e764e266d6ec0",
+    "cid": "2836834893314223808",
+    "reviewsCount": null,
+    "imagesCount": 1,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:23:55.151Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "wasOpenAtScrapeTime": null,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=byeacne&query_place_id=ChIJtQzqwEo99DkRwG5tJk52Xic",
+    "searchPageUrl": "https://www.google.com/maps/search/skin%20clinic%20in%20Bokaro?hl=en",
+    "searchString": "skin clinic in Bokaro",
+    "language": "en",
+    "rank": 19,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=tL0oq3jUvmt89Qtu7VLaGg&cb_client=search.gws-prod.grass&w=408&h=240&yaw=344.90332&pitch=0&thumbfov=100",
+    "kgmid": "/g/11w4j03pqz",
+    "businessProfileId": null
+  },
+  {
+    "title": "Shree Ramchandra Janta Clinic",
+    "subTitle": "श्री रामचंद्र जनता क्लिनिक",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Skin care clinic",
+    "address": "SRU BHANDARIDAH COLONY, NEAR BRL DAV PUBLIC SCHOOL, TURIO, Bokaro Steel City, Jharkhand 829132, India",
+    "neighborhood": null,
+    "street": "SRU BHANDARIDAH COLONY, NEAR BRL DAV PUBLIC SCHOOL, TURIO",
+    "city": "Bokaro Steel City, Tarmi",
+    "postalCode": "829132",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "website": "https://api.whatsapp.com/send?phone=+919934345406",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 23.7536604,
+      "lng": 86.0615313
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": null,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJp3iqEj8X9DkRjfJHTBidZw8",
+    "categories": [
+      "Skin care clinic"
+    ],
+    "fid": "0x39f4173f12aa78a7:0xf679d184c47f28d",
+    "cid": "1110028560854676109",
+    "reviewsCount": null,
+    "imagesCount": 1,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:24:00.011Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "wasOpenAtScrapeTime": null,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Shree%20Ramchandra%20Janta%20Clinic&query_place_id=ChIJp3iqEj8X9DkRjfJHTBidZw8",
+    "searchPageUrl": "https://www.google.com/maps/search/skin%20care%20clinic%20Bokaro%20Steel%20City?hl=en",
+    "searchString": "skin care clinic Bokaro Steel City",
+    "language": "en",
+    "rank": 15,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=HAKyUfiY8fiIB_3yBERKeA&cb_client=search.gws-prod.grass&w=408&h=240&yaw=186.60805&pitch=0&thumbfov=100",
+    "kgmid": "/g/11jz2bbp3v",
+    "businessProfileId": null
+  },
+  {
+    "title": "Ansari Clinic",
+    "subTitle": "अंसारी क्लिनिक",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Skin care clinic",
+    "address": "Chas, Bokaro Steel City, Jharkhand 827013, India",
+    "neighborhood": "Chas",
+    "street": null,
+    "city": "Bokaro Steel City",
+    "postalCode": "827013",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "+91 99055 30927",
+    "phoneUnformatted": "+919905530927",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 23.6383029,
+      "lng": 86.1727713
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": null,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJv6LYyTwj9DkRjNAjBGEMChk",
+    "categories": [
+      "Skin care clinic"
+    ],
+    "fid": "0x39f4233cc9d8a2bf:0x190a0c610423d08c",
+    "cid": "1804268211536121996",
+    "reviewsCount": null,
+    "imagesCount": 1,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:24:00.011Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "wasOpenAtScrapeTime": null,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Ansari%20Clinic&query_place_id=ChIJv6LYyTwj9DkRjNAjBGEMChk",
+    "searchPageUrl": "https://www.google.com/maps/search/skin%20care%20clinic%20Bokaro%20Steel%20City?hl=en",
+    "searchString": "skin care clinic Bokaro Steel City",
+    "language": "en",
+    "rank": 16,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Ge3CfoiGSwWHEfwJooOQ6g&cb_client=search.gws-prod.grass&w=408&h=240&yaw=218.20973&pitch=-0.052308064&thumbfov=100",
+    "kgmid": "/g/11t0vjpc60",
+    "businessProfileId": null
+  },
+  {
+    "title": "SDMH hospital",
+    "subTitle": "एसडीएमएच हॉस्पिटल",
+    "description": null,
+    "ownerDescription": null,
+    "price": null,
+    "categoryName": "Skin care clinic",
+    "address": "Main Rd, Gandhi Nagar, Chas, Bokaro Steel City, Jharkhand 827013, India",
+    "neighborhood": "Gandhi Nagar, Chas",
+    "street": "Main Rd",
+    "city": "Bokaro Steel City",
+    "postalCode": "827013",
+    "state": "Jharkhand",
+    "countryCode": "IN",
+    "phone": "+91 91997 39745",
+    "phoneUnformatted": "+919199739745",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 23.6351097,
+      "lng": 86.1746328
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": null,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ_d_hzGMj9DkRR8ESTXj1Fho",
+    "categories": [
+      "Skin care clinic"
+    ],
+    "fid": "0x39f42363cce1dffd:0x1a16f5784d12c147",
+    "cid": "1879959791511716167",
+    "reviewsCount": null,
+    "imagesCount": 1,
+    "imageCategories": [],
+    "scrapedAt": "2026-11-04T20:24:00.011Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "wasOpenAtScrapeTime": null,
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=SDMH%20hospital&query_place_id=ChIJ_d_hzGMj9DkRR8ESTXj1Fho",
+    "searchPageUrl": "https://www.google.com/maps/search/skin%20care%20clinic%20Bokaro%20Steel%20City?hl=en",
+    "searchString": "skin care clinic Bokaro Steel City",
+    "language": "en",
+    "rank": 18,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=r_2x4pUodbX6EwzL3LrwtA&cb_client=search.gws-prod.grass&w=408&h=240&yaw=168.5707&pitch=0&thumbfov=100",
+    "kgmid": "/g/11vd88kr82",
+    "businessProfileId": "5097317045739030833"
+  }
+]
