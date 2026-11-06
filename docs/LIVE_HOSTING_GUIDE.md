@@ -4,6 +4,27 @@ This guide details how to host your **LucidMediax Client Acquisition Engine** li
 
 ---
 
+## ⚠️ Can you deploy this to Vercel? (Read Before Trying)
+
+**Short answer:** Deploying this full application directly to Vercel is **strongly discouraged** if you want to keep your data without data loss.
+
+Here is why:
+1. **Read-Only Serverless Filesystem (`EROFS`):**
+   * Vercel runs on AWS Lambda. Its filesystem is strictly read-only.
+   * Because this app writes prospects, notes, audit reports, and email logs directly to SQLite (`data/lucidmediax_prospects.db`), Vercel will crash with `EROFS: read-only file system` or wipe all newly discovered leads every time the serverless container spins down (every few minutes).
+2. **Native SQLite (`better-sqlite3`) Addons:**
+   * `better-sqlite3` is a compiled C++ binary that expects persistent POSIX disk locks (WAL mode), which serverless lambdas do not support.
+3. **Background Process & Execution Limits:**
+   * Vercel terminates functions after 10–15 seconds (Hobby tier), which kills web audits and Google Maps scraper jobs before they complete.
+
+### The Solution: Where should you deploy instead?
+* **Railway (Recommended):** Uses real containers and supports attaching a **Persistent Disk** to `/app/data`. Your database, scraping engine, and master password work out of the box with zero code modifications.
+* **Render:** Supports persistent disks via `render.yaml`.
+* **Fly.io:** Supports persistent volumes via `fly.toml`.
+* **If you MUST use Vercel:** You would need to migrate the database layer to a remote cloud database like **Turso (libSQL)** or **Supabase**, and externalize the scraper jobs.
+
+---
+
 ## 🔒 1. Master Password & Security Architecture
 
 The application is protected by a multi-layer security system:
