@@ -1,5 +1,5 @@
 # Production Dockerfile for LucidMediax Client Acquisition Engine
-FROM node:22-slim
+FROM node:22
 
 WORKDIR /app
 
